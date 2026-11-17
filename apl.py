@@ -24,10 +24,10 @@ if q == '1':
 
 
 elif q == '2':
-    mar('coming soon')
+    mar('Coming soon...')
 
 elif q == '3':
-    mar('coming soon')
+    mar('Coming soon...')
 
 elif q == '4':
-    mar('coming soon')
+    mar('Coming soon...')
