@@ -7,6 +7,10 @@ def exp(dict, n):
         st.markdown(j)
 def mar(txt):
     st.markdown(txt)
+def tit(txt):
+    st.title(txt)
+def hea(txt):
+    st.header(txt)
 st.title('Hello')
 q = st.sidebar.selectbox('', ['1', '2', '3', '4'])
 if q == '1':
@@ -24,10 +28,10 @@ if q == '1':
 
 
 elif q == '2':
-    mar('Coming soon...')
+    hea('Coming soon...')
 
 elif q == '3':
-    mar('Coming soon...')
+    hea('Coming soon...')
 
 elif q == '4':
-    mar('Coming soon...')
+    hea('Coming soon...')
