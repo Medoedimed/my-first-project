@@ -9,7 +9,7 @@ def mar(txt):
     st.markdown(txt)
 st.title('Hello')
 q = st.sidebar.selectbox('', ['1', '2', '3', '4'])
-with q:
+if q:
     st.write('lk')
 
 
