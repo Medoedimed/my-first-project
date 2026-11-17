@@ -13,3 +13,21 @@ if q == '1':
     st.write('lk')
 
 
+
+
+
+
+
+
+
+
+
+
+elif q == '2':
+    print('coming soon')
+
+elif q == '3':
+    print('coming soon')
+
+elif q == '4':
+    print('coming soon')
