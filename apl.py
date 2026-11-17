@@ -8,7 +8,8 @@ def exp(dict, n):
 def mar(txt):
     st.markdown(txt)
 st.title('Hello')
-st.sidebar.selectbox('', ['', '', '', ''])
-
+st.sidebar.selectbox('', ['1', '2', '3', '4'])
+with 1:
+    st.write('lk')
 
 
