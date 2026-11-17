@@ -15,10 +15,10 @@ st.title('Hello')
 q = st.sidebar.selectbox('', ['1', '2', '3', '4'])
 ta1, ta2 = st.tabs(['qwerty', 'adsfgh'])
 with ta1:
-    hea('hellop')
-
+    hea('hello')
+    mar('My favourite food is chokolate')
 if q == '1':
-    st.write('lk')
+    st.write('')
 
 
 
@@ -31,6 +31,7 @@ if q == '1':
 
 elif q == '2':
     hea('Coming soon...')
+    mar('Много текста с длинными предложения ми и важными **СЛОВАМИ**')
 
 elif q == '3':
     hea('Coming soon...')
