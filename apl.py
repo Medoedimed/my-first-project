@@ -13,11 +13,12 @@ def hea(txt):
     st.header(txt)
 st.title('Hello')
 q = st.sidebar.selectbox('', ['1', '2', '3', '4'])
-if q == '1':
-    st.write('lk')
 ta1, ta2 = st.tabs(['qwerty', 'adsfgh'])
 with ta1:
     hea('hellop')
+
+if q == '1':
+    st.write('lk')
 
 
 
