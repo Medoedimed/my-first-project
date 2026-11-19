@@ -12,7 +12,7 @@ def tit(txt):
 def hea(txt):
     st.header(txt)
 st.title('Hello')
-q = st.sidebar.selectbox('', ['1', '2', '3', '4'])
+q = st.selectbox('', ['1', '2', '3', '4'])
 ta1, ta2 = st.tabs(['qwerty', 'adsfgh'])
 with ta1:
     hea('hello')
