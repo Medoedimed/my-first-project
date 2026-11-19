@@ -19,7 +19,7 @@ with ta1:
     mar('My favourite food is chokolate')
 with st.expander("Нажми, чтобы узнать больше"):
     st.latex(r"E = mc^2")
-    st.image('ап/ап.jpg')
+    st.image('ап/ал.jpg')
 
 
 
