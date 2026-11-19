@@ -53,11 +53,9 @@ elif q == 'Авито перепродажи, обучение':
     hea('Coming soon...')
 
 with ta1:
-        hea('hello')
-        mar('My favourite food is chokolate')
-
-with ta1:
     hea('hello')
     mar('My favourite food is chokolate')
+
+
 
 
