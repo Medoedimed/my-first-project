@@ -12,7 +12,7 @@ def tit(txt):
 def hea(txt):
     st.header(txt)
 st.title('Hello')
-q = st.selectbox('', ['1', '2', '3', '4'])
+q = st.selectbox('Выбрать канал', ['', 'Aplovolika', 'WB-Курьер, обучение', 'Банки, обучение', 'Авито перепродажи, обучение'])
 ta1, ta2 = st.tabs(['qwerty', 'adsfgh'])
 with ta1:
     hea('hello')
@@ -26,7 +26,7 @@ with st.expander("Нажми, чтобы узнать больше"):
 
 
 
-if q == '1':
+if q == 'Aplovolika':
     st.write('')
 
 
@@ -38,12 +38,12 @@ if q == '1':
 
 
 
-elif q == '2':
+elif q == ''WB-Курьер, обучение':
     hea('Coming soon...')
     mar('Много текста с длинными предложения ми и важными **СЛОВАМИ**')
 
-elif q == '3':
+elif q == 'Банки, обучение':
     hea('Coming soon...')
 
-elif q == '4':
+elif q == 'Авито перепродажи, обучение':
     hea('Coming soon...')
