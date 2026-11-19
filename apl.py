@@ -11,12 +11,14 @@ def tit(txt):
     st.title(txt)
 def hea(txt):
     st.header(txt)
+
+
+
 st.title('Hello')
+
 q = st.selectbox('Выбрать канал', ['', 'Aplovolika', 'WB-Курьер, обучение', 'Банки, обучение', 'Авито перепродажи, обучение'])
 
-with ta1:
-    hea('hello')
-    mar('My favourite food is chokolate')
+
 with st.expander("Нажми, чтобы узнать больше"):
     st.latex(r"E = mc^2")
     st.image('ап/ал.jpg')
@@ -54,6 +56,8 @@ with ta1:
         hea('hello')
         mar('My favourite food is chokolate')
 
-
+with ta1:
+    hea('hello')
+    mar('My favourite food is chokolate')
 
 
