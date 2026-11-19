@@ -33,8 +33,11 @@ if q == 'Aplovolika':
 
     
     ta1, ta2 = st.tabs(['qwerty', 'adsfgh'])
-    
+    with ta1:
+        hea('hello')
+        mar('My favourite food is chokolate')
 
+    
 
 
 
@@ -52,9 +55,6 @@ elif q == 'Банки, обучение':
 elif q == 'Авито перепродажи, обучение':
     hea('Coming soon...')
 
-with ta1:
-    hea('hello')
-    mar('My favourite food is chokolate')
 
 
 
