@@ -28,8 +28,12 @@ with st.expander("Нажми, чтобы узнать больше"):
 
 if q == 'Aplovolika':
     st.write('')
-    ta1, ta2 = st.tabs(['qwerty', 'adsfgh'])
 
+    
+    ta1, ta2 = st.tabs(['qwerty', 'adsfgh'])
+    with ta1:
+    hea('hello')
+    mar('My favourite food is chokolate')
 
 
 
