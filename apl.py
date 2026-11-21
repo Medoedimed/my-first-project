@@ -11,9 +11,10 @@ def tit(txt):
     st.title(txt)
 def hea(txt):
     st.header(txt)
+def ima(adr):
+    st.image(adr)
 
-
-
+#start
 st.title('Hello')
 
 q = st.selectbox('Выбрать канал', ['', 'Aplovolika', 'WB-Курьер, обучение', 'Банки, обучение', 'Авито перепродажи, обучение'])
