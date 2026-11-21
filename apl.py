@@ -44,7 +44,7 @@ if q == 'Aplovolika':
     ta1, ta2 = st.tabs(['qwerty', 'adsfgh'])
     with ta1:
         hea('hello')
-        mar('My favourite food is chokolate')
+        mar('My favourite food is chocolate')
 
     
 
