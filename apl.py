@@ -13,8 +13,7 @@ def hea(txt):
     st.header(txt)
 def ima(adr):
     st.image(adr)
-def expa(i):
-    with st.expander(i):
+
         
 dict = {'ПРЕИМУЩЕСТВА WB-курьер:': '''● Официальное трудоустройство.
 
@@ -120,7 +119,7 @@ if q == 'Aplovolika':
         mar('My favourite food is chocolate')
 
     mar('deftest')
-    expa('1'):
+    with st.expander('1'):
         ap1()
     
 
