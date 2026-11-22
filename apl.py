@@ -49,8 +49,8 @@ if q == 'Aplovolika':
         hea('hello')
         mar('My favourite food is chocolate')
 
-    
-
+    mar('deftest')
+    ap1()
 
 
 
