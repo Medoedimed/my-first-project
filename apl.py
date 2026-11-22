@@ -72,6 +72,10 @@ def ap1():
     exp(dict, 1)
     mar('[ССЫЛКА ДЛЯ РЕГИСТРАЦИИ](https://smena.yandex.ru/bonus?reward_id=ref_20k10s_April_2026&worker_id=87bf736fa8c84588befc7daaaf185bae)')
     exp(dict, 2)
+def ap2():
+    ima('ап/дк.jpg')
+    mar('''2) ОФОРМЛЕНИЕ И ЗАКАЗ ДЕБЕТОВОЙ КАРТЫ (Альфа-банк, Т-банк, Ozon-банк)  
+Быстрый и удобный способ заработать деньги [14+].''')
 
 
 
@@ -121,7 +125,8 @@ if q == 'Aplovolika':
     mar('deftest')
     with st.expander('1'):
         ap1()
-    
+    with st.expander('2'):
+        ap2()
 
 
 
