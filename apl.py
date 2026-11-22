@@ -54,6 +54,9 @@ with st.expander("ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ И ПРАВИЛА 
 • Договор-оферта на размещение рекламы: [ССЫЛКА НА ДОКУМЕНТ](https://docs.google.com/document/d/12qyCaHJc8QY7mXGVe4vR0YXDRZQVcKjx3HL8BHlFcXA/edit?usp=drivesdk)''')
 q = st.selectbox('Выбрать канал', ['', 'Aplovolika', 'WB-Курьер, обучение', 'Банки, обучение', 'Авито перепродажи, обучение'])
 
+
+
+
 def ap1():
     ima('ап/як.jpg')
     mar('''1) WB-КУРЬЕР и ЯНДЕКС-КУРЬЕР
@@ -67,7 +70,7 @@ def ap1():
 (вводить при регистрации)''')
     exp(dict, 1)
     mar('[ССЫЛКА ДЛЯ РЕГИСТРАЦИИ](https://smena.yandex.ru/bonus?reward_id=ref_20k10s_April_2026&worker_id=87bf736fa8c84588befc7daaaf185bae)')
-
+    exp(dict, 2)
 
 if q == 'Aplovolika':
     st.write('adsf')
