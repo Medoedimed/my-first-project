@@ -120,7 +120,8 @@ if q == 'Aplovolika':
         mar('My favourite food is chocolate')
 
     mar('deftest')
-    #expa('1', ap1())
+    with st.expander('1'):
+        ap1()
     
 
 
