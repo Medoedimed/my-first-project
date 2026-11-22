@@ -19,7 +19,7 @@ def ima(adr):
 
 #start
 st.title('Hello')
-#ima('ап/пз.jpg')
+ima('ап/пз.jpg')
 with st.expander("ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ И ПРАВИЛА ПРОЕКТА «APLOVOLIKA»"):
     st.latex(r"E = mc^2")
     
