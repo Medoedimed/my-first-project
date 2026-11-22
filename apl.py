@@ -39,7 +39,7 @@ q = st.selectbox('Выбрать канал', ['', 'Aplovolika', 'WB-Курье�
 
 
 if q == 'Aplovolika':
-    st.write('')
+    st.write('adsf')
 
     
     ta1, ta2 = st.tabs(['qwerty', 'adsfgh'])
