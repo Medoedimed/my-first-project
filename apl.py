@@ -13,7 +13,9 @@ def hea(txt):
     st.header(txt)
 def ima(adr):
     st.image(adr)
-
+def expa(i, j):
+    with st.expander(i):
+        st.markdown(j)
 dict = {'ПРЕИМУЩЕСТВА WB-курьер:': '''● Официальное трудоустройство.
 
 ● Оплата за заказ: ~100₽.
@@ -72,6 +74,42 @@ def ap1():
     mar('[ССЫЛКА ДЛЯ РЕГИСТРАЦИИ](https://smena.yandex.ru/bonus?reward_id=ref_20k10s_April_2026&worker_id=87bf736fa8c84588befc7daaaf185bae)')
     exp(dict, 2)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 if q == 'Aplovolika':
     st.write('adsf')
 
@@ -82,7 +120,8 @@ if q == 'Aplovolika':
         mar('My favourite food is chocolate')
 
     mar('deftest')
-    ap1()
+    expa('1', ap1())
+    
 
 
 
