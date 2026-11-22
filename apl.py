@@ -19,7 +19,7 @@ def ima(adr):
 
 #start
 st.title('Hello')
-ima('ап/пз.jpg')
+#ima('ап/пз.jpg')
 with st.expander("ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ И ПРАВИЛА ПРОЕКТА «APLOVOLIKA»"):
     st.latex(r"E = mc^2")
     
@@ -30,7 +30,8 @@ with st.expander("ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ И ПРАВИЛА 
 • Договор-оферта на размещение рекламы: [ССЫЛКА НА ДОКУМЕНТ](https://docs.google.com/document/d/12qyCaHJc8QY7mXGVe4vR0YXDRZQVcKjx3HL8BHlFcXA/edit?usp=drivesdk)''')
 q = st.selectbox('Выбрать канал', ['', 'Aplovolika', 'WB-Курьер, обучение', 'Банки, обучение', 'Авито перепродажи, обучение'])
 
-
+def ap1():
+    
 
 
 
