@@ -530,12 +530,33 @@ if q == 'Aplovolika':
             elif peremen1 == '67':
                 st.toast('🔥😎СИКСЕБЕН😎🔥')
                 st.success('🔥😎СИКСЕБЕН😎🔥\n' * 6)
+            elif peremen1 == '69':
+                st.toast('Nice')
+                st.success('Nice')
+            elif peremen1 == '42':
+                st.toast('Смысл')
+                st.info('Смысл')
+            elif peremen1 == '1488':
+                st.toast('Осуждаю')
+                st.danger('Осуждаю')
+            elif peremen1 == '404':
+                st.toast('Страница не найдена')
+                st.warning('Страница не найдена')
+            elif peremen1 == '49':
+                st.toast('7×7=49')
+                st.success('7×7=49')
+            elif peremen1 == '52':
+                st.toast('52 недели в году')
+                st.info('52 недели в году')
+            elif peremen1 == '228':
+                st.toast('Мы команда ')
+                st.danger('Мы команда ')
             elif peremen1 == '1' or peremen1 == '3':
                 st.toast('почти')
             elif peremen1.isdigit():
                 st.toast('мимо')
             else:
-                st.toast('ответ - натуральная цифра')
+                st.toast('ответ - натуральное число')
 elif q == 'WB-Курьер, обучение':
     hea('Coming soon...')
     mar('Много текста с длинными предложения ми и важными **СЛОВАМИ**')
