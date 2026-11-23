@@ -480,7 +480,7 @@ def ap13():
 
 
 if q == 'Aplovolika':
-    st.write('adsf')
+    #st.write('adsf')
 
     
     ta1, ta2, ta3, ta4 = st.tabs(['Раздел 1', 'Раздел 2', 'Раздел 3', 'Раздел 4'])
