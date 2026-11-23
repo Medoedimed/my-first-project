@@ -529,7 +529,7 @@ if q == 'Aplovolika':
                 st.toast('🎉Молодец🎉')
             elif peremen1 == '67':
                 st.toast('🔥😎СИКСЕБЕН😎🔥')
-                st.success('''  
+                st.success('''
 🔥😎СИКСЕБЕН😎🔥  
 🔥😎СИКСЕБЕН😎🔥  
 🔥😎СИКСЕБЕН😎🔥  
