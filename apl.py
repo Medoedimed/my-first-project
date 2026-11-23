@@ -298,9 +298,11 @@ dict = {'ПРЕИМУЩЕСТВА WB-курьер:': '''● Официально
 
 Даяна - @benzodayana
 
-2 СПОСОБ: 
+2 СПОСОБ:  
+
 ● Оффлайн получите конверт или визитку от основателя (@aplovolikaa)  
-Полные правила участия есть в Telegram-канале (https://t.me/konkursiaplovolika/8)'''}
+
+Полные правила участия есть в [Telegram-канале](https://t.me/konkursiaplovolika/8)'''}
 #END OF THE DICT________________________________________________________________000
 
 
@@ -425,7 +427,7 @@ def ap11():
 def ap12():
     ima('ап/ал.jpg')
     mar('''РОЗЫГРЫШ В ЧЕСТЬ ОТКРЫТИЯ APLOVOLIKA  
-Telegram-канал КОНКУРСЫ APLOVOLIKA (https://t.me/konkursiaplovolika)''')
+Telegram-канал [КОНКУРСЫ APLOVOLIKA](https://t.me/konkursiaplovolika)''')
     exp(dict, 31)
     exp(dict, 32)
 
