@@ -523,9 +523,15 @@ if q == 'Aplovolika':
             st.balloons()
         if st.checkbox('не шарики'):
             st.snow()
-        if st.text_input('1 + 1') == '2':
+        peremen1 = st.text_input('1 + 1')
+        if peremen1 == '2':
             st.toast('🎉Молодец🎉')
-
+        elif peremen1 == '67':
+            st.toast('🔥😎СИКСЕБЕН😎🔥')
+        elif peremen1 > 0 and peremen1 < 5:
+            st.toast('почти')
+        else:
+            st.toast('мимо')
 elif q == 'WB-Курьер, обучение':
     hea('Coming soon...')
     mar('Много текста с длинными предложения ми и важными **СЛОВАМИ**')
