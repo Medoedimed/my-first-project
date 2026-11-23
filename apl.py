@@ -530,10 +530,10 @@ if q == 'Aplovolika':
             elif peremen1 == '67':
                 st.toast('🔥😎СИКСЕБЕН😎🔥')
                 st.success('''🔥😎СИКСЕБЕН😎🔥  
-                                🔥😎СИКСЕБЕН😎🔥  
-                                 🔥😎СИКСЕБЕН😎🔥  
-                                  🔥😎СИКСЕБЕН😎🔥  
-                                   🔥😎СИКСЕБЕН😎🔥''')
+                🔥😎СИКСЕБЕН😎🔥  
+                🔥😎СИКСЕБЕН😎🔥  
+                🔥😎СИКСЕБЕН😎🔥  
+                🔥😎СИКСЕБЕН😎🔥''')
             elif peremen1 == '1' or peremen1 == '3':
                 st.toast('почти')
             elif peremen1 in [str(i) for i in range(10)]:
