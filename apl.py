@@ -483,7 +483,7 @@ if q == 'Aplovolika':
     #st.write('adsf')
 
     
-    ta1, ta2, ta3, ta4, ta5 = st.tabs(['Раздел 1', 'Раздел 2', 'Раздел 3', 'Раздел 4', '.'])
+    ta1, ta2, ta3, ta4, ta5 = st.tabs(['Раздел 1', 'Раздел 2', 'Раздел 3', 'Раздел 4', '...'])
     with ta1:
 
         #mar('deftest')
@@ -519,8 +519,10 @@ if q == 'Aplovolika':
     with ta5:
         hea('hello')
         mar('My favourite food is chocolate')
-
-
+        if st.button('шарики'):
+            st.balloons()
+        if st.checkbox('не шарики'):
+            st.snow()
 elif q == 'WB-Курьер, обучение':
     hea('Coming soon...')
     mar('Много текста с длинными предложения ми и важными **СЛОВАМИ**')
