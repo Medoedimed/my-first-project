@@ -483,7 +483,7 @@ if q == 'Aplovolika':
     #st.write('adsf')
 
     
-    ta1, ta2, ta3, ta4, ta5 = st.tabs(['Раздел 1', 'Раздел 2', 'Раздел 3', 'Раздел 4', '/'])
+    ta1, ta2, ta3, ta4, ta5 = st.tabs(['Раздел 1', 'Раздел 2', 'Раздел 3', 'Раздел 4', '.'])
     with ta1:
 
         #mar('deftest')
