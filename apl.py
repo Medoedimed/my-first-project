@@ -488,34 +488,34 @@ if q == 'Aplovolika':
         hea('hello')
         mar('My favourite food is chocolate')
         #mar('deftest')
-        with st.expander('1'):
+        with st.expander('1.Я/wb курьер'):
             ap1()
-        with st.expander('2'):
+        with st.expander('2.Дебетовые карты'):
             ap2()
-        with st.expander('3'):
+        with st.expander('3.Яндекс смена'):
             ap3()
-        with st.expander('4'):
+        with st.expander('4.Авито перепродажи'):
             ap4()
     with ta2:
-        with st.expander('5'):
+        with st.expander('5.Вк рассылки'):
             ap5()
-        with st.expander('6'):
+        with st.expander('6.Реферальные программы'):
             ap6()
-        with st.expander('7'):
+        with st.expander('7.Работа в Т-банке'):
             ap7()
     with ta3:
-        with st.expander('8'):
+        with st.expander('8.Инвестиции'):
             ap8()
-        with st.expander('9'):
+        with st.expander('9.Перенос номера'):
             ap9()
-        with st.expander('10'):
+        with st.expander('10.Wb курьер'):
             ap10()
     with ta4:
-        with st.expander('11'):
+        with st.expander('11.Яндекс поиск'):
             ap11()
-        with st.expander('12'):
+        with st.expander('12.Розыгрыши'):
             ap12()
-        with st.expander('13'):
+        with st.expander('13Работы'):
             ap13()
     
 
