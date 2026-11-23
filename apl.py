@@ -529,12 +529,17 @@ if q == 'Aplovolika':
                 st.toast('🎉Молодец🎉')
             elif peremen1 == '67':
                 st.toast('🔥😎СИКСЕБЕН😎🔥')
+                st.success('''🔥😎СИКСЕБЕН😎🔥
+                                🔥😎СИКСЕБЕН😎🔥
+                                 🔥😎СИКСЕБЕН😎🔥
+                                  🔥😎СИКСЕБЕН😎🔥
+                                   🔥😎СИКСЕБЕН😎🔥''')
             elif peremen1 == '1' or peremen1 == '3':
                 st.toast('почти')
-            else:
+            elif peremen1 in ['i' for i in range(10)]:
                 st.toast('мимо')
-        else:
-            st.toast('ответ - натуральное число ')
+            else:
+                st.toast('ответ - натуральная цифра')
 elif q == 'WB-Курьер, обучение':
     hea('Coming soon...')
     mar('Много текста с длинными предложения ми и важными **СЛОВАМИ**')
