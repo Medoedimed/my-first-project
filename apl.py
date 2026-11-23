@@ -292,7 +292,8 @@ dict = {'ПРЕИМУЩЕСТВА WB-курьер:': '''● Официально
 
 4 МЕСТО - Lego Ferrari 77254🏎
 
-5 МЕСТО - Telegram-premium на 6 месяцев''', 'КАК ПРИНЯТЬ УЧАСТИЕ':'''● Участвуйте в любой реферальной программе в основном Telegram-канале [APLOVOLIKA](https://t.me/aplovolika)
+5 МЕСТО - Telegram-premium на 6 месяцев''', 'КАК ПРИНЯТЬ УЧАСТИЕ':'''1 СПОСОБ:  
+● Участвуйте в любой реферальной программе в основном Telegram-канале [APLOVOLIKA](https://t.me/aplovolika)
 
 ● Напишите менеджерам для внесения в список участников:
 
@@ -427,7 +428,7 @@ def ap11():
 def ap12():
     ima('ап/ал.jpg')
     mar('''РОЗЫГРЫШ В ЧЕСТЬ ОТКРЫТИЯ APLOVOLIKA  
-Telegram-канал [КОНКУРСЫ APLOVOLIKA](https://t.me/konkursiaplovolika)''')
+[Telegram-канал КОНКУРСЫ APLOVOLIKA](https://t.me/konkursiaplovolika)''')
     exp(dict, 31)
     exp(dict, 32)
 
