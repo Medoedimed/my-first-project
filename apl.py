@@ -529,10 +529,10 @@ if q == 'Aplovolika':
                 st.toast('🎉Молодец🎉')
             elif peremen1 == '67':
                 st.toast('🔥😎СИКСЕБЕН😎🔥')
-                st.success('🔥😎СИКСЕБЕН😎🔥\n\n' * 6)
+                st.success('🔥😎СИКСЕБЕН😎🔥\n' * 6)
             elif peremen1 == '1' or peremen1 == '3':
                 st.toast('почти')
-            elif peremen1 in [str(i) for i in range(10)]:
+            elif peremen1.isdigit():
                 st.toast('мимо')
             else:
                 st.toast('ответ - натуральная цифра')
