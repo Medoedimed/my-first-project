@@ -536,7 +536,7 @@ if q == 'Aplovolika':
                                    🔥😎СИКСЕБЕН😎🔥''')
             elif peremen1 == '1' or peremen1 == '3':
                 st.toast('почти')
-            elif peremen1 in ['i' for i in range(10)]:
+            elif peremen1 in [str(i) for i in range(10)]:
                 st.toast('мимо')
             else:
                 st.toast('ответ - натуральная цифра')
