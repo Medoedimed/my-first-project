@@ -524,7 +524,7 @@ if q == 'Aplovolika':
         if st.checkbox('не шарики'):
             st.snow()
         peremen1 = st.text_input('1 + 1')
-        if str(peremen1) == peremen1:
+        if peremen1:
             if peremen1 == '2':
                 st.toast('🎉Молодец🎉')
             elif peremen1 == '67':
