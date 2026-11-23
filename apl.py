@@ -523,6 +523,9 @@ if q == 'Aplovolika':
             st.balloons()
         if st.checkbox('не шарики'):
             st.snow()
+        if st.text_input('1 + 1') == '2':
+            st.toast('🎉Молодец🎉')
+
 elif q == 'WB-Курьер, обучение':
     hea('Coming soon...')
     mar('Много текста с длинными предложения ми и важными **СЛОВАМИ**')
