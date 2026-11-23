@@ -524,14 +524,17 @@ if q == 'Aplovolika':
         if st.checkbox('не шарики'):
             st.snow()
         peremen1 = st.text_input('1 + 1')
-        if peremen1 == '2':
-            st.toast('🎉Молодец🎉')
-        elif peremen1 == '67':
-            st.toast('🔥😎СИКСЕБЕН😎🔥')
-        elif peremen1 > 0 and peremen1 < 5:
-            st.toast('почти')
+        if str(peremen1) == peremen1:
+            if peremen1 == '2':
+                st.toast('🎉Молодец🎉')
+            elif peremen1 == '67':
+                st.toast('🔥😎СИКСЕБЕН😎🔥')
+            elif int(peremen1) > 0 and int(peremen1) < 5:
+                st.toast('почти')
+            else:
+                st.toast('мимо')
         else:
-            st.toast('мимо')
+            st.toast('ответ - натуральное число ')
 elif q == 'WB-Курьер, обучение':
     hea('Coming soon...')
     mar('Много текста с длинными предложения ми и важными **СЛОВАМИ**')
