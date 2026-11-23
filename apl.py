@@ -538,7 +538,7 @@ if q == 'Aplovolika':
                 st.info('Смысл')
             elif peremen1 == '1488':
                 st.toast('Осуждаю')
-                st.danger('Осуждаю')
+                st.error('Осуждаю')
             elif peremen1 == '404':
                 st.toast('Страница не найдена')
                 st.warning('Страница не найдена')
@@ -550,7 +550,7 @@ if q == 'Aplovolika':
                 st.info('52 недели в году')
             elif peremen1 == '228':
                 st.toast('Мы команда ')
-                st.danger('Мы команда ')
+                st.error('Мы команда ')
             elif peremen1 == '1' or peremen1 == '3':
                 st.toast('почти')
             elif peremen1.isdigit():
