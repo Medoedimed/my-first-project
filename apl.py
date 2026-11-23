@@ -326,7 +326,7 @@ dict = {'ПРЕИМУЩЕСТВА WB-курьер:': '''● Официально
 
 • 💎Обучение заработку на [реферальных программах банков](https://t.me/aplovolika/40) (Т-банк, Альфа-банк, Ozon-банк)  [14+]
 
-• 🚩Работа в Т-банке [(https://t.me/aplovolika/41)](онлайн/оффлайн) [18+]
+• 🚩Работа в [Т-банке](https://t.me/aplovolika/41)(онлайн/оффлайн) [18+]
 
 • 💎Инвестиции в [Т-банке и Альфа-банке](https://t.me/aplovolika/42) [14+]
 
@@ -483,40 +483,41 @@ if q == 'Aplovolika':
     st.write('adsf')
 
     
-    ta1, ta2 = st.tabs(['qwerty', 'adsfgh'])
+    ta1, ta2, ta3, ta4 = st.tabs(['Раздел 1', 'Раздел 2', 'Раздел 3', 'Раздел 4'])
     with ta1:
         hea('hello')
         mar('My favourite food is chocolate')
-
-    mar('deftest')
-    with st.expander('1'):
-        ap1()
-    with st.expander('2'):
-        ap2()
-    with st.expander('3'):
-        ap3()
-    with st.expander('4'):
-        ap4()
-    with st.expander('5'):
-        ap5()
-    with st.expander('6'):
-        ap6()
-    with st.expander('7'):
-        ap7()
-    with st.expander('8'):
-        ap8()
-    with st.expander('9'):
-        ap9()
-    with st.expander('10'):
-        ap10()
-    with st.expander('11'):
-        ap11()
-    with st.expander('12'):
-        ap12()
-    with st.expander('13'):
-        ap13()
-
-
+        #mar('deftest')
+        with st.expander('1'):
+            ap1()
+        with st.expander('2'):
+            ap2()
+        with st.expander('3'):
+            ap3()
+        with st.expander('4'):
+            ap4()
+    with ta2:
+        with st.expander('5'):
+            ap5()
+        with st.expander('6'):
+            ap6()
+        with st.expander('7'):
+            ap7()
+    with ta3:
+        with st.expander('8'):
+            ap8()
+        with st.expander('9'):
+            ap9()
+        with st.expander('10'):
+            ap10()
+    with ta4:
+        with st.expander('11'):
+            ap11()
+        with st.expander('12'):
+            ap12()
+        with st.expander('13'):
+            ap13()
+    
 
 
 elif q == 'WB-Курьер, обучение':
