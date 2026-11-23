@@ -393,9 +393,9 @@ def ap11():
 *Предлагаем людям сделать ,,Яндекс-поиск,, основным *
 
 [Ссылка на Я-поиск](https://yandex.ru/portal/defsearchpromo/partner?yasource=yNzc3Cv1Wrx0863399&tab=link)''')
-    exp(dict, 26)
-    exp(dict, 27)
     exp(dict, 28)
+    exp(dict, 29)
+    exp(dict, 30)
 
 
 
