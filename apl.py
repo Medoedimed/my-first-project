@@ -529,7 +529,7 @@ if q == 'Aplovolika':
                 st.toast('🎉Молодец🎉')
             elif peremen1 == '67':
                 st.toast('🔥😎СИКСЕБЕН😎🔥')
-            elif int(peremen1) > 0 and int(peremen1) < 5:
+            elif peremen1 == '1' or peremen1 == '3':
                 st.toast('почти')
             else:
                 st.toast('мимо')
