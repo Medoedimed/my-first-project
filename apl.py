@@ -483,15 +483,15 @@ if q == 'Aplovolika':
     #st.write('adsf')
 
     
-    ta1, ta2, ta3, ta4, ta5 = st.tabs(['Раздел 1', 'Раздел 2', 'Раздел 3', 'Раздел 4', '...'])
+    ta1, ta2, ta3, ta4, ta5 = st.tabs(['ОФИЦИАЛЬНЫЕ РАБОТЫ:', 'ДЕБЕТОВЫЕ КАРТЫ:', 'БЫСТРЫЙ ЗАРАБОТОК:', 'ОБУЧЕНИЯ:', '...'])
     with ta1:
-
+#
         #mar('deftest')
-        with st.expander('1.Я/wb курьер'):
+        with st.expander('1.ЯНДЕКС/WB-КУРЬЕР'):
             ap1()
         with st.expander('2.Дебетовые карты'):
             ap2()
-        with st.expander('3.Яндекс смена'):
+        with st.expander('3.ЯНДЕКС СМЕНА'):
             ap3()
         with st.expander('4.Авито перепродажи'):
             ap4()
@@ -502,6 +502,7 @@ if q == 'Aplovolika':
             ap6()
         with st.expander('7.Работа в Т-банке'):
             ap7()
+#I'm going back
     with ta3:
         with st.expander('8.Инвестиции'):
             ap8()
@@ -551,6 +552,9 @@ if q == 'Aplovolika':
             elif peremen1 == '228':
                 st.toast('Мы команда ')
                 st.error('Мы команда ')
+            elif peremen1 == '505':
+                st.toast('I'm going back')
+                hea('I'm going back')
             elif peremen1 == '1' or peremen1 == '3':
                 st.toast('почти')
             elif peremen1.isdigit():
