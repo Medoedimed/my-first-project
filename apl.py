@@ -553,8 +553,8 @@ if q == 'Aplovolika':
                 st.toast('Мы команда ')
                 st.error('Мы команда ')
             elif peremen1 == '505':
-                st.toast('I'm going back')
-                hea('I'm going back')
+                st.toast("I'm going back")
+                hea("I'm going back")
             elif peremen1 == '1' or peremen1 == '3':
                 st.toast('почти')
             elif peremen1.isdigit():
