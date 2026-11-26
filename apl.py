@@ -483,41 +483,41 @@ if q == 'Aplovolika':
     #st.write('adsf')
 
     
-    ta1, ta2, ta3, ta4, ta5 = st.tabs(['ОФИЦИАЛЬНЫЕ РАБОТЫ:', 'ДЕБЕТОВЫЕ КАРТЫ:', 'БЫСТРЫЙ ЗАРАБОТОК:', 'ОБУЧЕНИЯ:', '...'])
+    ta1, ta2, ta3, ta4, ta5, ta6 = st.tabs(['ОФИЦИАЛЬНЫЕ РАБОТЫ:', 'ДЕБЕТОВЫЕ КАРТЫ:', 'БЫСТРЫЙ ЗАРАБОТОК:', 'ОБУЧЕНИЯ:', 'Другое', '...'])
     with ta1:
-#
+#        with st.expander('5.Вк рассылки'):
+#            ap5()
+#        with st.expander('12.Розыгрыши'):
+#            ap12()
         #mar('deftest')
         with st.expander('1.ЯНДЕКС/WB-КУРЬЕР'):
             ap1()
-        with st.expander('2.Дебетовые карты'):
-            ap2()
         with st.expander('3.ЯНДЕКС СМЕНА'):
             ap3()
-        with st.expander('4.Авито перепродажи'):
-            ap4()
-    with ta2:
-        with st.expander('5.Вк рассылки'):
-            ap5()
-        with st.expander('6.Реферальные программы'):
-            ap6()
-        with st.expander('7.Работа в Т-банке'):
+        with st.expander('7.РАБОТА В Т-БАНКЕ'):
             ap7()
-#I'm going back
+    with ta2:
+        with st.expander('2.ДЕБЕТОВЫЕ КАРТЫ'):
+            ap2()
     with ta3:
-        with st.expander('8.Инвестиции'):
+        with st.expander('8.ИНВЕСТИЦИИ'):
             ap8()
-        with st.expander('9.Перенос номера'):
+#I'm going back
+        with st.expander('9.СИМ-КАРТА Т-БАНКА'):
             ap9()
-        with st.expander('10.Wb курьер'):
-            ap10()
-    with ta4:
-        with st.expander('11.Яндекс поиск'):
+        with st.expander('11.ЯНДЕКС-ПОИСК'):
             ap11()
-        with st.expander('12.Розыгрыши'):
-            ap12()
+    with ta4:
+        with st.expander('4.ПЕРЕПРОДАЖИ АВИТО'):
+            ap4()
+        with st.expander('6.РЕФЕРАЛЬНЫЕ ПРОГРАММЫ БАНКОВ'):
+            ap6()
+        with st.expander('10.РЕФЕРАЛЬНЫЕ ПРОГРАММЫ WB-КУРЬЕР'):
+            ap10()
+    with ta5:
         with st.expander('13Работы'):
             ap13()
-    with ta5:
+    with ta6:
         hea('hello')
         mar('My favourite food is chocolate')
         if st.button('шарики'):
